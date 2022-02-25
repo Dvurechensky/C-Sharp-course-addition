@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson 28 - Индексы 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 69 - const vs readonly - разница между ними(const и static).", "Lesson 69 - const vs readonly - разница между ними(const и static)\Lesson 69 - const vs readonly - разница между ними(const и static)..csproj", "{B631ED43-936E-4911-9A24-C4F39A2C619C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 70 - синтаксис инициализации объектов класса.", "Lesson 70 - синтаксис инициализации объектов класса\Lesson 70 - синтаксис инициализации объектов класса..csproj", "{CC03A907-36C4-40F0-9160-29F57FB4D16E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B631ED43-936E-4911-9A24-C4F39A2C619C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B631ED43-936E-4911-9A24-C4F39A2C619C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B631ED43-936E-4911-9A24-C4F39A2C619C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC03A907-36C4-40F0-9160-29F57FB4D16E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC03A907-36C4-40F0-9160-29F57FB4D16E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC03A907-36C4-40F0-9160-29F57FB4D16E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC03A907-36C4-40F0-9160-29F57FB4D16E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
