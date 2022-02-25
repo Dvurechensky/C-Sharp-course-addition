@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 28 - Индексы и диапазоны", "Lesson 28 - Индексы и диапазоны\Lesson 28 - Индексы и диапазоны.csproj", "{29E1F97C-1812-4942-9B73-B80B7CB3CF60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson 28 - Индексы и диапазоны", "Lesson 28 - Индексы и диапазоны\Lesson 28 - Индексы и диапазоны.csproj", "{29E1F97C-1812-4942-9B73-B80B7CB3CF60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 69 - const vs readonly - разница между ними(const и static).", "Lesson 69 - const vs readonly - разница между ними(const и static)\Lesson 69 - const vs readonly - разница между ними(const и static)..csproj", "{B631ED43-936E-4911-9A24-C4F39A2C619C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{29E1F97C-1812-4942-9B73-B80B7CB3CF60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29E1F97C-1812-4942-9B73-B80B7CB3CF60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29E1F97C-1812-4942-9B73-B80B7CB3CF60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B631ED43-936E-4911-9A24-C4F39A2C619C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B631ED43-936E-4911-9A24-C4F39A2C619C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B631ED43-936E-4911-9A24-C4F39A2C619C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B631ED43-936E-4911-9A24-C4F39A2C619C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

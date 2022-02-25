@@ -10,7 +10,7 @@ namespace Lesson_28___Индексы_и_диапазоны
     {
         static void Main(string[] args)
         {
-            int[] myArray = { 2, 10, 5, 5, 1 };
+            int[] myArray = { 2, 10, 5, 5, 1, 1, 2, 3 };
             Console.WriteLine(myArray[^1]); //Поддерживает >= .Net Core 3.0 - выводит первый элемент с конца
 
             int[] myIntArray = myArray[1..4]; //Поддерживает >= .Net Core 3.0 - извлекает диапазон элементов
