@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 77 - Интерфе�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 78 - Наследование интерфейсов, множественное наследование.", "Lesson 78 - Наследование интерфейсов, множественное наследование\Lesson 78 - Наследование интерфейсов, множественное наследование..csproj", "{C451AA57-73C3-41D1-BB87-175FD03C44BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 79 - Интерфейсы - Явная реализация.", "Lesson 79 - Интерфейсы - Явная реализация\Lesson 79 - Интерфейсы - Явная реализация..csproj", "{3F70073D-4EBC-4C7C-AA19-723029EE09B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{C451AA57-73C3-41D1-BB87-175FD03C44BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C451AA57-73C3-41D1-BB87-175FD03C44BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C451AA57-73C3-41D1-BB87-175FD03C44BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F70073D-4EBC-4C7C-AA19-723029EE09B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F70073D-4EBC-4C7C-AA19-723029EE09B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F70073D-4EBC-4C7C-AA19-723029EE09B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F70073D-4EBC-4C7C-AA19-723029EE09B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
