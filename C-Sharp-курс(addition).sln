@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 73 - Операто�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 74 - protected - модификатор доступа.", "Lesson 74 - protected - модификатор доступа\Lesson 74 - protected - модификатор доступа..csproj", "{F93FD5FB-7E7B-4009-977E-837C3CB4E41F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 75 - ПОЛИМОРФИЗМ, виртуальные методы, virtual override.", "Lesson 75 - ПОЛИМОРФИЗМ, виртуальные методы, virtual override\Lesson 75 - ПОЛИМОРФИЗМ, виртуальные методы, virtual override..csproj", "{41255756-37BE-493D-8B9C-718D9F1DCF8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{F93FD5FB-7E7B-4009-977E-837C3CB4E41F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F93FD5FB-7E7B-4009-977E-837C3CB4E41F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F93FD5FB-7E7B-4009-977E-837C3CB4E41F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41255756-37BE-493D-8B9C-718D9F1DCF8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41255756-37BE-493D-8B9C-718D9F1DCF8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41255756-37BE-493D-8B9C-718D9F1DCF8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41255756-37BE-493D-8B9C-718D9F1DCF8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
