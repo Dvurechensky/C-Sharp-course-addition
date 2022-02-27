@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 79 - Интерфе�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 80 - Реализация интерфейса по умолчанию.", "Lesson 80 - Реализация интерфейса по умолчанию\Lesson 80 - Реализация интерфейса по умолчанию..csproj", "{C1A46FD2-C520-4255-8A3E-959EAC5DD934}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 81 - Структуры и классы - отличия, struct vs class.", "Lesson 81 - Структуры и классы - отличия, struct vs class\Lesson 81 - Структуры и классы - отличия, struct vs class..csproj", "{CD1E9C0F-6AB4-4ED4-8E69-9284A5CCC36C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{C1A46FD2-C520-4255-8A3E-959EAC5DD934}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1A46FD2-C520-4255-8A3E-959EAC5DD934}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1A46FD2-C520-4255-8A3E-959EAC5DD934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD1E9C0F-6AB4-4ED4-8E69-9284A5CCC36C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1E9C0F-6AB4-4ED4-8E69-9284A5CCC36C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD1E9C0F-6AB4-4ED4-8E69-9284A5CCC36C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD1E9C0F-6AB4-4ED4-8E69-9284A5CCC36C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
