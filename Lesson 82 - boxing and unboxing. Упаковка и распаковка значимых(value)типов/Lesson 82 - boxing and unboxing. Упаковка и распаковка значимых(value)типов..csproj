@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Lesson_82___boxing_and_unboxing._Упаковка_и_распаковка_значимых_value_типов_</RootNamespace>
+  </PropertyGroup>
+
+</Project>

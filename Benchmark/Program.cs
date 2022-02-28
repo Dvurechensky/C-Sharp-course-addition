@@ -132,14 +132,37 @@ namespace Benchmark
         }
     }
 
+    [MemoryDiagnoser]
+    [RankColumn]
+    public class Benchmark_4
+    {
+        [Benchmark]
+        public void NoBoxing()
+        {
+            int res = 0;
+            double a = 1;
+            res += (int)a;
+        }
+
+        [Benchmark]
+        public void Boxing()
+        {
+            int res = 0;
+            object a = 1;
+            res += (int)a;
+        }
+    }
+
+
     class Program
     {
         static void Main(string[] args)
         {
             //BenchmarkRunner.Run<MyParserBenchmark>();
             //BenchmarkRunner.Run<Benchmark_1>();
-            BenchmarkRunner.Run<Benchmark_2>();
+            //BenchmarkRunner.Run<Benchmark_2>();
             //BenchmarkRunner.Run<Benchmark_3>();
+            BenchmarkRunner.Run<Benchmark_4>();
         }
     }
 }
