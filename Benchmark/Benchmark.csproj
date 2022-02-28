@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.13.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lesson 81 - Структуры и классы - отличия, struct vs class\Lesson 81 - Структуры и классы - отличия, struct vs class..csproj" />
+    <ProjectReference Include="..\Lesson 81_B - Benchmark DotNet\Lesson 81_B - Benchmark DotNet..csproj" />
+  </ItemGroup>
+
+</Project>

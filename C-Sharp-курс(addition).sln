@@ -19,17 +19,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson 74 - protected - м�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson 75 - ПОЛИМОРФИЗМ, виртуальные методы, virtual override.", "Lesson 75 - ПОЛИМОРФИЗМ, виртуальные методы, virtual override\Lesson 75 - ПОЛИМОРФИЗМ, виртуальные методы, virtual override..csproj", "{41255756-37BE-493D-8B9C-718D9F1DCF8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 76 - Абстрактные классы, abstract.", "Lesson 76 - Абстрактные классы, abstract\Lesson 76 - Абстрактные классы, abstract..csproj", "{70DB7E53-4A16-48D7-A11B-9067AE181F02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson 76 - Абстрактные классы, abstract.", "Lesson 76 - Абстрактные классы, abstract\Lesson 76 - Абстрактные классы, abstract..csproj", "{70DB7E53-4A16-48D7-A11B-9067AE181F02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 77 - Интерфейсы, зачем нужны и как используются, interface.", "Lesson 77 - Интерфейсы, зачем нужны и как используются, interface\Lesson 77 - Интерфейсы, зачем нужны и как используются, interface..csproj", "{C1FBC143-BB13-4422-B037-5A10B0E0FAAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson 77 - Интерфейсы, зачем нужны и как используются, interface.", "Lesson 77 - Интерфейсы, зачем нужны и как используются, interface\Lesson 77 - Интерфейсы, зачем нужны и как используются, interface..csproj", "{C1FBC143-BB13-4422-B037-5A10B0E0FAAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 78 - Наследование интерфейсов, множественное наследование.", "Lesson 78 - Наследование интерфейсов, множественное наследование\Lesson 78 - Наследование интерфейсов, множественное наследование..csproj", "{C451AA57-73C3-41D1-BB87-175FD03C44BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson 78 - Наследование интерфейсов, множественное наследование.", "Lesson 78 - Наследование интерфейсов, множественное наследование\Lesson 78 - Наследование интерфейсов, множественное наследование..csproj", "{C451AA57-73C3-41D1-BB87-175FD03C44BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 79 - Интерфейсы - Явная реализация.", "Lesson 79 - Интерфейсы - Явная реализация\Lesson 79 - Интерфейсы - Явная реализация..csproj", "{3F70073D-4EBC-4C7C-AA19-723029EE09B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson 79 - Интерфейсы - Явная реализация.", "Lesson 79 - Интерфейсы - Явная реализация\Lesson 79 - Интерфейсы - Явная реализация..csproj", "{3F70073D-4EBC-4C7C-AA19-723029EE09B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 80 - Реализация интерфейса по умолчанию.", "Lesson 80 - Реализация интерфейса по умолчанию\Lesson 80 - Реализация интерфейса по умолчанию..csproj", "{C1A46FD2-C520-4255-8A3E-959EAC5DD934}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson 80 - Реализация интерфейса по умолчанию.", "Lesson 80 - Реализация интерфейса по умолчанию\Lesson 80 - Реализация интерфейса по умолчанию..csproj", "{C1A46FD2-C520-4255-8A3E-959EAC5DD934}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 81 - Структуры и классы - отличия, struct vs class.", "Lesson 81 - Структуры и классы - отличия, struct vs class\Lesson 81 - Структуры и классы - отличия, struct vs class..csproj", "{CD1E9C0F-6AB4-4ED4-8E69-9284A5CCC36C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson 81 - Структуры и классы - отличия, struct vs class.", "Lesson 81 - Структуры и классы - отличия, struct vs class\Lesson 81 - Структуры и классы - отличия, struct vs class..csproj", "{CD1E9C0F-6AB4-4ED4-8E69-9284A5CCC36C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 81_B - Benchmark DotNet.", "Lesson 81_B - Benchmark DotNet\Lesson 81_B - Benchmark DotNet..csproj", "{FE2FFEAF-3293-460E-B96B-D2E4961962DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "Benchmark\Benchmark.csproj", "{12E35FD5-61A8-431B-BB91-9E122E3273E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,14 @@ Global
 		{CD1E9C0F-6AB4-4ED4-8E69-9284A5CCC36C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD1E9C0F-6AB4-4ED4-8E69-9284A5CCC36C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD1E9C0F-6AB4-4ED4-8E69-9284A5CCC36C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE2FFEAF-3293-460E-B96B-D2E4961962DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE2FFEAF-3293-460E-B96B-D2E4961962DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE2FFEAF-3293-460E-B96B-D2E4961962DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE2FFEAF-3293-460E-B96B-D2E4961962DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12E35FD5-61A8-431B-BB91-9E122E3273E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E35FD5-61A8-431B-BB91-9E122E3273E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E35FD5-61A8-431B-BB91-9E122E3273E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E35FD5-61A8-431B-BB91-9E122E3273E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
