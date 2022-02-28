@@ -1,6 +1,9 @@
 ﻿using BenchmarkDotNet.Running;
 using BenchmarkDotNet.Attributes;
 using Lesson_81___Структуры_и_классы___отличия__struct_vs_class_;
+using Lesson_84___Обобщения___производительность__коллекции_;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace Benchmark
 {
@@ -153,6 +156,51 @@ namespace Benchmark
         }
     }
 
+    [MemoryDiagnoser]
+    [RankColumn]
+    public class Benchmark_5
+    {
+        [Benchmark]
+        public void Swaps()//4ns
+        {
+            object a = 5;
+            object b = 1;
+            SwapTestClass.Swap(ref a, ref b);
+        }
+
+        [Benchmark]
+        public void GenericSwaps()//0ns
+        {
+            double p1 = 5;
+            double p2 = 1;
+            SwapTestClass.GenericSwap(ref p1, ref p2);
+        }
+    }
+
+    [MemoryDiagnoser]
+    [RankColumn]
+    public class Benchmark_6
+    {
+        [Benchmark]
+        public void ArrayListBench()
+        {
+            ArrayList arrayList = new ArrayList();
+            for (int el = 0; el < 1000; el++)
+            {
+                arrayList.Add(el);
+            }
+        }
+
+        [Benchmark]
+        public void ListBench()
+        {
+            List<int> _list = new List<int>();
+            for (int el = 0; el < 1000; el++)
+            {
+                _list.Add(el);
+            }
+        }
+    }
 
     class Program
     {
@@ -162,7 +210,8 @@ namespace Benchmark
             //BenchmarkRunner.Run<Benchmark_1>();
             //BenchmarkRunner.Run<Benchmark_2>();
             //BenchmarkRunner.Run<Benchmark_3>();
-            BenchmarkRunner.Run<Benchmark_4>();
+            //BenchmarkRunner.Run<Benchmark_4>();
+            BenchmarkSwitcher.FromAssembly(typeof(Program).Assembly).Run(args);
         }
     }
 }
