@@ -12,6 +12,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Lesson 81 - Структуры и классы - отличия, struct vs class\Lesson 81 - Структуры и классы - отличия, struct vs class..csproj" />
     <ProjectReference Include="..\Lesson 81_B - Benchmark DotNet\Lesson 81_B - Benchmark DotNet..csproj" />
+    <ProjectReference Include="..\Lesson 84 - Обобщения - производительность, коллекции\Lesson 84 - Обобщения - производительность, коллекции..csproj" />
   </ItemGroup>
 
 </Project>

@@ -37,7 +37,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmark", "Benchmark\Benc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson 82 - boxing and unboxing. Упаковка и распаковка значимых(value)типов.", "Lesson 82 - boxing and unboxing. Упаковка и распаковка значимых(value)типов\Lesson 82 - boxing and unboxing. Упаковка и распаковка значимых(value)типов..csproj", "{7115BF78-D53A-4016-BAC5-83300CFD1BB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 83 - Обобщения, generic типы, методы и классы.", "Lesson 83 - Обобщения, generic типы, методы и классы\Lesson 83 - Обобщения, generic типы, методы и классы..csproj", "{625CCB9E-04CA-4900-8128-E8CECFAA816B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 84 - Обобщения - производительность, коллекции.", "Lesson 84 - Обобщения - производительность, коллекции\Lesson 84 - Обобщения - производительность, коллекции..csproj", "{65E8A3B0-D6F0-4258-997A-7EC7DDC67669}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,10 +113,6 @@ Global
 		{7115BF78-D53A-4016-BAC5-83300CFD1BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7115BF78-D53A-4016-BAC5-83300CFD1BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7115BF78-D53A-4016-BAC5-83300CFD1BB4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{625CCB9E-04CA-4900-8128-E8CECFAA816B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{625CCB9E-04CA-4900-8128-E8CECFAA816B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{625CCB9E-04CA-4900-8128-E8CECFAA816B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{625CCB9E-04CA-4900-8128-E8CECFAA816B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
