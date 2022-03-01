@@ -31,11 +31,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson 80 - Реализа�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson 81 - Структуры и классы - отличия, struct vs class.", "Lesson 81 - Структуры и классы - отличия, struct vs class\Lesson 81 - Структуры и классы - отличия, struct vs class..csproj", "{CD1E9C0F-6AB4-4ED4-8E69-9284A5CCC36C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 81_B - Benchmark DotNet.", "Lesson 81_B - Benchmark DotNet\Lesson 81_B - Benchmark DotNet..csproj", "{FE2FFEAF-3293-460E-B96B-D2E4961962DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson 81_B - Benchmark DotNet.", "Lesson 81_B - Benchmark DotNet\Lesson 81_B - Benchmark DotNet..csproj", "{FE2FFEAF-3293-460E-B96B-D2E4961962DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "Benchmark\Benchmark.csproj", "{12E35FD5-61A8-431B-BB91-9E122E3273E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmark", "Benchmark\Benchmark.csproj", "{12E35FD5-61A8-431B-BB91-9E122E3273E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 82 - boxing and unboxing. Упаковка и распаковка значимых(value)типов.", "Lesson 82 - boxing and unboxing. Упаковка и распаковка значимых(value)типов\Lesson 82 - boxing and unboxing. Упаковка и распаковка значимых(value)типов..csproj", "{7115BF78-D53A-4016-BAC5-83300CFD1BB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson 82 - boxing and unboxing. Упаковка и распаковка значимых(value)типов.", "Lesson 82 - boxing and unboxing. Упаковка и распаковка значимых(value)типов\Lesson 82 - boxing and unboxing. Упаковка и распаковка значимых(value)типов..csproj", "{7115BF78-D53A-4016-BAC5-83300CFD1BB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 83 - Обобщения, generic типы, методы и классы.", "Lesson 83 - Обобщения, generic типы, методы и классы\Lesson 83 - Обобщения, generic типы, методы и классы..csproj", "{625CCB9E-04CA-4900-8128-E8CECFAA816B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{7115BF78-D53A-4016-BAC5-83300CFD1BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7115BF78-D53A-4016-BAC5-83300CFD1BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7115BF78-D53A-4016-BAC5-83300CFD1BB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{625CCB9E-04CA-4900-8128-E8CECFAA816B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625CCB9E-04CA-4900-8128-E8CECFAA816B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{625CCB9E-04CA-4900-8128-E8CECFAA816B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{625CCB9E-04CA-4900-8128-E8CECFAA816B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
